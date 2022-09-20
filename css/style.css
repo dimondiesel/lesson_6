@@ -1,0 +1,302 @@
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face{
+	font-family: '3D LET (BRK)';
+	src: url("../fonts/3DLETBRK.woff2") format("woff2"),url("../fonts/3DLETBRK.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Lato', normal;		
+	
+}
+header{
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 30px 0px 0px 0px;
+}
+main{
+	max-width: 810px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 46px;
+	line-height: 59.8px;
+	margin: 0px 0px 92px 0px;
+	color:rgba(0, 0, 0, 1);
+	text-shadow: 0px 4px 4px  rgb(0,0,0,0.25);
+}
+.image {
+	margin: 0px 0px 60px 0px;
+	width: 100%;
+}
+.shodow {
+	margin: 0px 0px 24px 0px;
+}
+.shodow p{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color:rgba(30, 33, 44, 1);
+	text-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+}
+.normal {
+	margin: 0px 0px 48px 0px;
+}
+.normal p{
+	line-height: 25.6px;
+	color:rgba(66, 69, 81, 1);		
+}
+.text{
+	margin: 0px 0px 28px 0px;
+}
+.bold {
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+
+}
+.bold p{
+	color: rgba(30, 33, 44, 1);	
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.list {
+	margin: 0px 0px 24px 0px;
+}
+.list p{
+	line-height: 25.6px;
+	margin: 0px 0px 24px 0px;
+}
+li{
+	padding: 0px 0px 0px 33px;
+	line-height: 25.6px;
+	
+}
+ul{
+	margin: 0px 0px 28.4px 0px;
+}
+
+.homework {
+	background-color: rgb(14, 204, 81);
+	border: 1px dotted rgb(8, 8, 8);
+}
+
+.homework h1{
+	margin: 0px 0px 0px 0px;
+	border: 1px dashed rgb(8, 8, 8);
+	background-color: rgb(32, 143, 223);
+}
+
+h2{
+	font-family: '3D LET (BRK)';
+	font-size: 30px;
+	background-color: #fff;
+	border: 1px double rgb(8, 8, 8);
+	
+}
+
+.block {
+	background-color: rgb(132, 20, 142);
+	border: 1px solid rgb(8, 8, 8);
+}
+.inline {
+	background-color: rgb(248, 217, 43);
+	border: 1px solid rgb(17, 13, 223);
+	
+}
+.water{
+	border: 5px solid rgb(230, 12, 12);
+	width: 500px;
+}
+.victoria p{
+	width: 200px;
+	height: 200px;
+	
+}
+.victoria span{
+	width: 200px;
+	height: 200px;
+}
+.victoria img{
+	width: 500px;
+	height: 500px;
+	border-radius: 50px;
+	border-left: none;
+
+}
+.angel p{
+	min-width: 200px;
+	
+}
+.angel span{
+	min-width: 200px;
+}
+	
+.angel img{
+	min-width: 500px;
+	border-radius: 50px 50px 0px 0px;
+}	
+.iguazu p{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	outline: 5px solid #000;
+	overflow: auto;
+}
+.iguazu span{
+	max-width: 500px;
+	visibility: hidden;
+}
+	
+.iguazu img{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+
+
+}	
+.rainbow p{
+	height: 30px;
+	box-shadow: 5px 50px 10px 15px #000;
+}
+.rainbow span{
+	height: 5px;
+}
+	
+.rainbow img{
+	height: 100px;
+	border: 5px dashed rgb(230, 12, 12);
+}	
+.honey p{
+	min-height: 300px;
+	border-radius: 20px;
+	box-shadow: inset 5px 50px 10px 15px #000;
+	
+}
+.honey span{
+	min-height: 500px;
+	border-radius: 20px;
+	box-shadow: 5px 50px 10px 15px #000;
+}	
+.honey img{
+	box-shadow: inset 5px 50px 10px 15px #000;
+	
+}	
+.manavgat p{
+	max-height: 30px;
+	width: 100px;
+}
+.manavgat span{
+	max-height: 500px;
+	background-color: inherit;
+	display: block;
+	
+}
+	
+.manavgat img{
+	max-height: 500px;
+	border-radius: 50px / 200px;
+}	
+.agur p{
+	max-height: 50px;
+	width: 300px;
+	overflow: hidden;
+
+}
+.agur span{
+	background-color: inherit;
+}
+	
+.agur img{
+	width: 500px;
+	opacity: 0.5;
+	padding: 20px;
+	border-radius:48% 52% 28% 72% / 85% 50% 50% 15% ;
+	}	
+.dudhsagar p{
+	max-height: 100px;
+	width: 300px;
+	overflow: scroll;
+	
+	}
+.dudhsagar span{
+	background-color: inherit;
+	display: none;
+}
+		
+.dudhsagar img{
+	width: 500px;
+	opacity: 0;
+	margin: -20px;
+}	
+.wuchang p{
+	max-height: 100px;
+	width: 300px;
+	overflow: auto;
+	margin: 0 auto;
+	
+	}
+.wuchang span{
+   width: 500px;
+	max-height: 200px;
+	
+}
+		
+.wuchang img{
+	max-height: 200px;
+	margin: 100px;
+		box-shadow: 5px 50px 20px 30px #000;
+}	
+.eravan p{
+	max-height: 150px;
+	max-width: 200px;
+	overflow: auto;
+	display: inline-block;
+	
+	}
+.eravan span{
+   max-width: 150px;
+	max-height: 200px;
+	display: block;
+	overflow: scroll;
+	display: inline-block;
+}
+		
+.eravan img{
+	max-width: 250px;
+	display: block;
+	overflow: scroll;
+	display: inline-block;
+}
+.circle{
+	background-color: rgb(242, 234, 13);
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 0px 00px 100px 115px rgb(169, 33, 33), inset 0px 00px 100px 50px rgb(169, 33, 33);
+
+
+}
